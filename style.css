@@ -36,7 +36,7 @@ p {
 }
 
 img {
-    width: 100px;
+    width: 100%;
 }
 
 .showcase {
@@ -53,7 +53,7 @@ img {
 
 .showcase-top img {
     width: 170px;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -66,6 +66,32 @@ img {
     transform: translate(-50%, -50%);
 }
 
+.showcase-content {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.showcase-content h1 {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+
+.showcase-content p {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
 
 /* Buttons */
 .btn {
